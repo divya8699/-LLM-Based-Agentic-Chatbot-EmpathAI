@@ -1,7 +1,7 @@
 2 files are added to the "therapy" folder.
 
 curl:
-curl --location 'http://127.0.0.1:5000/therapy' \
+curl --location '#URL/therapy' \
 --header 'Content-Type: application/json' \
 --data '{
     "user_input": "I am having thoughts of depression"
